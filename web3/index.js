@@ -44,12 +44,12 @@ async function connect() {
     // torus: {
     //   package: Torus,
     // },
-    // walletconnect: {
-    //   package: window.WalletConnectProvider.default,
-    //   options: {
-    //     infuraId: "00000000000000000000000000000000",
-    //   },
-    // },
+     walletconnect: {
+        package: window.WalletConnectProvider.default,
+       options: {
+         infuraId: "00000000000000000000000000000000",
+      },
+    },
   };
 
   const web3Modal = new window.Web3Modal.default({
